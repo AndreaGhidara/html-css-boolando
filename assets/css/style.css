@@ -1,0 +1,89 @@
+/*************************
+        General Rule
+*************************/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 70px;
+}
+
+ul{
+    list-style: none;
+}
+
+.ps-relative{
+    position: relative;
+}
+
+.ps-absolute{
+    position: absolute;
+}
+
+.ps-fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*************************
+        Color
+*************************/ 
+.bg-orange{background-color: #ff6900;}
+
+/*************************
+        flex
+*************************/ 
+.flex{
+    display: flex;
+}
+
+.centerFlex{
+    justify-content: center;
+    align-items: center;
+}
+
+/*************************
+        Header
+*************************/ 
+.containerHeader{
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+div.sexHuman ul li{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.logoImg{
+    width: 100px;
+}
+
+div.socialMenu i{
+    padding: 5px;
+    font-size: 18px;
+}
+
+/*************************
+        Main
+*************************/
+
+.cardBox{
+    width: 400px;
+    max-width: 400px;
+    height: 600px;
+    max-height: 600px;
+}
+
+.cardImg{
+    width: 400px;
+    height: 600px;
+}
