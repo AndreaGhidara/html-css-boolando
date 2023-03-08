@@ -71,6 +71,11 @@ a{
     gap: 10px;
 }
 
+/*************************
+        z-index
+*************************/ 
+.lv1{z-index: -1;}
+.lv2{z-index: 1;}
 
 
 /*************************
@@ -103,6 +108,34 @@ div.socialMenu i{
 /*************************
         Main
 *************************/
+
+
+.discaunt{
+    color: white;
+    background-color: red;
+    padding: 1px 5px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+
+.greenProd{
+    color: white;
+    background-color: green;
+    padding: 1px 5px;
+    position: absolute;
+    left: 60px;
+    bottom: 30px;
+}
+
+.heart{
+    font-size: 20px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 10px;
+}
 
 /* card */
 .cardBox{
@@ -157,5 +190,4 @@ div.infoFt ul li {
 
 div.socialFt p i{
     font-size: 20px;
-    
 }
