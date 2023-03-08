@@ -42,6 +42,7 @@ a{
 .cl-white{color: white;}
 .bg-orange{background-color: #ff6900;}
 .bg-black{background-color: #1a1a1a;}
+.bg-green{background-color: green !important;}
 
 /*************************
         flex
@@ -75,8 +76,18 @@ a{
         z-index
 *************************/ 
 .lv1{z-index: -1;}
-.lv2{z-index: 1;}
+.lv2{z-index: 0;}
+.lv3{z-index: 1;}
 
+
+.on{
+    visibility: visible;
+    transition: 1s;
+}
+
+.off{
+    visibility: hidden;
+}
 
 /*************************
         Header
@@ -111,7 +122,6 @@ div.socialMenu i{
 
 
 .discaunt{
-    color: white;
     background-color: red;
     padding: 1px 5px;
     position: absolute;
@@ -120,7 +130,6 @@ div.socialMenu i{
 }
 
 .greenProd{
-    color: white;
     background-color: green;
     padding: 1px 5px;
     position: absolute;
@@ -129,6 +138,7 @@ div.socialMenu i{
 }
 
 .heart{
+    color: #292929;
     font-size: 20px;
     background-color: white;
     position: absolute;
@@ -143,7 +153,24 @@ div.socialMenu i{
     max-width: 450px;
     height: 700px;
     max-height: 650px;
+    transition: 1s;
 }
+
+.cardBox:hover{
+    -webkit-box-shadow: 3.5px 2px 29.5px 11.5px #b2b2b2;
+    -moz-box-shadow: 3.5px 2px 29.5px 11.5px #b2b2b2;
+    box-shadow: 3.5px 2px 29.5px 11.5px #b2b2b2;
+}
+
+div.cardBox div.cardTop img.ps-absolute:hover{
+    opacity: 0;
+}
+
+div.cardBox div.cardTop p.heart i:hover{
+    color: red;
+}
+
+
 
 .cardTop{
     max-width: 450px;
