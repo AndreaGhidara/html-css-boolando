@@ -5,12 +5,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 main{
     width: 80%;
     margin: 0px auto;
-    margin-top: 70px;
+    margin-top: 120px;
 }
 
 ul{
@@ -48,19 +49,29 @@ ul{
     align-items: center;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
+.gap{
+    gap: 50px;
+}
+
 /*************************
         Header
 *************************/ 
 .containerHeader{
-    width: 1200px;
+    width: 80%;
     height: 70px;
     margin: auto;
     justify-content: space-between;
 }
 
 div.sexHuman ul li{
+    color: white;
     padding: 5px;
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .logoImg{
@@ -68,6 +79,7 @@ div.sexHuman ul li{
 }
 
 div.socialMenu i{
+    color: white;
     padding: 5px;
     font-size: 18px;
 }
@@ -76,14 +88,39 @@ div.socialMenu i{
         Main
 *************************/
 
+
+/* card */
 .cardBox{
-    width: 400px;
-    max-width: 400px;
-    height: 600px;
-    max-height: 600px;
+    width: 450px;
+    max-width: 450px;
+    height: 700px;
+    max-height: 650px;
+}
+
+.cardTop{
+    max-width: 450px;
 }
 
 .cardImg{
-    width: 400px;
+    width: 450px;
     height: 600px;
+}
+
+.brand{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.model{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.price{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.newPrice{
+    color: red;
 }
