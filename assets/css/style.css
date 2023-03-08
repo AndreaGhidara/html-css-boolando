@@ -10,12 +10,16 @@
 
 main{
     width: 80%;
-    margin: 0px auto;
+    margin: 50px auto;
     margin-top: 120px;
 }
 
 ul{
     list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .ps-relative{
@@ -35,7 +39,9 @@ ul{
 /*************************
         Color
 *************************/ 
+.cl-white{color: white;}
 .bg-orange{background-color: #ff6900;}
+.bg-black{background-color: #1a1a1a;}
 
 /*************************
         flex
@@ -49,13 +55,23 @@ ul{
     align-items: center;
 }
 
+.spaceBtw{
+    justify-content: space-between;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
 
-.gap{
+.gap50{
     gap: 50px;
 }
+
+.gap10{
+    gap: 10px;
+}
+
+
 
 /*************************
         Header
@@ -87,7 +103,6 @@ div.socialMenu i{
 /*************************
         Main
 *************************/
-
 
 /* card */
 .cardBox{
@@ -123,4 +138,24 @@ div.socialMenu i{
 
 .newPrice{
     color: red;
+}
+
+/*************************
+        Footer
+*************************/
+
+.containerFt{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+}
+
+div.infoFt ul li {
+    color: white;
+    font-size: 12px;
+}
+
+div.socialFt p i{
+    font-size: 20px;
+    
 }
